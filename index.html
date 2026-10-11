@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta_title">حسين عبد الرازق | مستشار مهني ومتخصص في كتابة السير الذاتية للصيادلة</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" data-i18n-meta="meta_description" content="مراجعة احترافية للسيرة الذاتية، صياغة مخصصة متوافقة مع أنظمة ATS، وإرشاد مهني لطلاب وخريجي كليات الصيدلة للالتحاق بشركات الأدوية والمستشفيات.">
+  <meta name="keywords" content="سيرة ذاتية صيدلي, CV صيدلة, ATS CV, Medical Representative, حسين عبد الرازق, استشارات مهنية صيدلة, مراجعة السيرة الذاتية">
+  <meta name="author" content="Hussein Abdelrazek">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" data-i18n-meta="og_title" content="حسين عبد الرازق | مستشار مهني وتطوير السير الذاتية للصيادلة">
+  <meta property="og:description" data-i18n-meta="og_description" content="فرصتك المهنية القادمة في قطاع الدواء تبدأ بسيرة ذاتية أقوى وأكثر احترافية. مراجعة وصياغة متوافقة مع ATS.">
+  <meta property="og:image" content="assets/images/hussein-hero.jpg">
+  
+  <!-- Google Fonts: IBM Plex Sans Arabic & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon Mockup -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/pharmacy.svg">
+</head>
+<body>
+
+  <!-- =========================================================================
+       SECTION A: NAVIGATION (HEADER)
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    
+    <!-- Top Pricing Announcement Strip -->
+    <div class="top-announcement-bar">
+      <div class="container top-announcement-wrapper">
+        <div class="announcement-content">
+          <span class="announcement-pill" data-i18n="announcement_pill">عرض خاص</span>
+          <span class="announcement-text">
+            <span class="announcement-service open-order-modal" data-service-id="cv-review" data-service-name="CV Review" data-price="50 EGP">
+              <span data-i18n="top_bar_review_title">مراجعة السيرة الذاتية (CV Review):</span>
+              <strong class="price-tag-highlight">50 <span data-i18n="currency_egp">ج.م</span></strong>
+            </span>
+            <span class="announcement-separator">•</span>
+            <span class="announcement-service open-order-modal" data-service-id="cv-writing" data-service-name="Professional CV Writing" data-price="200 EGP">
+              <span data-i18n="top_bar_writing_title">كتابة السيرة الذاتية (CV Writing):</span>
+              <strong class="price-tag-highlight">200 <span data-i18n="currency_egp">ج.م</span></strong>
+            </span>
+          </span>
+        </div>
+        <button type="button" class="announcement-action-btn open-order-modal" data-service-id="cv-writing" data-service-name="Professional CV Writing" data-price="200 EGP" data-i18n="announcement_btn">
+          اطلب الآن
+        </button>
+      </div>
+    </div>
+
+    <div class="container nav-wrapper">
+      
+      <!-- Brand Wordmark -->
+      <a href="#hero" class="brand-link" aria-label="Hussein Abdelrazek Home">
+        <span class="brand-name">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="12" y1="18" x2="12" y2="12"></line>
+            <line x1="9" y1="15" x2="15" y2="15"></line>
+          </svg>
+          <span data-i18n="brand_name">حسين عبد الرازق</span>
+        </span>
+        <span class="brand-tag" data-i18n="brand_tag">مستشار مهني للصيادلة</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
+          <li>
+            <a href="#services" class="nav-link nav-service-pill open-order-modal" data-service-id="cv-review" data-service-name="CV Review" data-price="50 EGP">
+              <span data-i18n="nav_cv_review">مراجعة السيرة: 50 ج.م</span>
+            </a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link nav-service-pill nav-service-featured open-order-modal" data-service-id="cv-writing" data-service-name="Professional CV Writing" data-price="200 EGP">
+              <span data-i18n="nav_cv_writing">كتابة السيرة: 200 ج.م</span>
+            </a>
+          </li>
+          <li><a href="#courses" class="nav-link" data-i18n="nav_courses">البرامج التدريبية</a></li>
+          <li><a href="#resources" class="nav-link" data-i18n="nav_resources">مواد مجانية</a></li>
+          <li><a href="#testimonials" class="nav-link" data-i18n="nav_testimonials">آراء العملاء</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="nav_about">عن حسين</a></li>
+          <li><a href="#consultations" class="nav-link" data-i18n="nav_consultations">الاستشارات</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Group: Language Switcher & Quick CTA -->
+      <div class="nav-actions">
+        <button class="lang-toggle-btn" id="langToggleBtn" type="button" aria-label="Switch Language">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span id="langLabel">English</span>
+        </button>
+
+        <button class="btn btn-primary btn-sm open-booking-modal" type="button" data-i18n="nav_cta">
+          احجز استشارة
+        </button>
+
+        <button class="nav-toggle-btn" id="navToggleBtn" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- =======================================================================
+         SECTION B: HERO (EDITORIAL PERSONAL-BRAND STYLE)
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <div class="hero-trust-kicker">
+            <span>🎯</span>
+            <span data-i18n="hero_kicker">المتخصص في السير الذاتية والمسار المهني للصيادلة</span>
+          </div>
+
+          <h1 class="hero-headline">
+            <span data-i18n="hero_h1_part1">فرصتك المهنية القادمة تبدأ</span>
+            <span class="hero-highlight" data-i18n="hero_h1_part2">بسيرة ذاتية أقوى.</span>
+          </h1>
+
+          <p class="hero-subtext" data-i18n="hero_subtext">
+            مراجعة احترافية للسيرة الذاتية، صياغة مخصصة متوافقة مع أنظمة ATS، وإرشاد مهني عملي لطلاب وخريجي كليات الصيدلة المستعدين للانطلاق بثقة نحو وظائفهم القادمة.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#services" class="btn btn-primary btn-lg" data-i18n="hero_primary_cta">
+              استكشف الخدمات
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <button type="button" class="btn btn-secondary btn-lg open-booking-modal" data-i18n="hero_secondary_cta">
+              احجز استشارة فردية
+            </button>
+          </div>
+
+          <!-- Trust & Value Checklist -->
+          <div class="hero-checklist">
+            <div class="checklist-item">
+              <svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="hero_check_1">متوافق 100% مع أنظمة الفرز (ATS)</span>
+            </div>
+            <div class="checklist-item">
+              <svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="hero_check_2">موجه لمسارات شركات الأدوية والمستشفيات</span>
+            </div>
+            <div class="checklist-item">
+              <svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="hero_check_3">تسليم سريع ومراجعة دقيقة في 48 ساعة</span>
+            </div>
+            <div class="checklist-item">
+              <svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="hero_check_4">دفع ميسر عبر InstaPay وطلب مباشر عبر واتساب</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Portrait & Badges -->
+        <div class="hero-visual">
+          <div class="hero-portrait-card">
+            <img src="assets/images/hussein-hero.jpg" alt="Hussein Abdelrazek - Pharma Career Advisor" class="hero-portrait-img" loading="eager">
+            
+            <!-- Top Floating Badge: Status -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-indicator-dot"></div>
+              <div>
+                <div class="badge-title" data-i18n="badge_status_title">متاح للاستشارات والطلبات</div>
+                <div class="badge-subtitle" data-i18n="badge_status_sub">حجز مباشر وتواصل سريع</div>
+              </div>
+            </div>
+
+            <!-- Bottom Floating Badge: Achievement Metric -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-stat-number">+500</div>
+              <div>
+                <div class="badge-title" data-i18n="badge_metric_title">سيرة ذاتية تم تطويرها</div>
+                <div class="badge-subtitle" data-i18n="badge_metric_sub">بنسبة رضا 98%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION C: SERVICES (TWO CORE SERVICES: REVIEW & FULL WRITING)
+         ======================================================================= -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge" data-i18n="services_badge">الخدمات الأساسية</span>
+          <h2 class="section-title" data-i18n="services_title">حلول مخصصة لبناء حضورك المهني الصيدلاني</h2>
+          <p class="section-subtitle" data-i18n="services_subtitle">
+            سواء كنت تمتلك مسودة سيرة ذاتية ترغب في فحصها، أو تحتاج لبناء سيرة جديدة كلياً تؤهلك لكبرى شركات الأدوية والمستشفيات.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service Card 1: CV Review -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <span class="service-pill-tag" data-i18n="service_1_tag">تدقيق وملاحظات تفصيلية</span>
+            </div>
+
+            <h3 class="service-title" data-i18n="service_1_title">مراجعة وتدقيق السيرة الذاتية (CV Review)</h3>
+            <p class="service-desc" data-i18n="service_1_desc">
+              فحص شامل لسيرتك الذاتية الحالية لتحديد نقاط الضعف، ونسبة التوافق مع أنظمة الفرز (ATS)، وإعادة ضبط صياغتها لتناسب الشركات والمستشفيات المستهدفة.
+            </p>
+
+            <div class="service-deliverables-title" data-i18n="deliverables_title">ما ستحصل عليه في المراجعة:</div>
+            <ul class="service-deliverables-list">
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_1_deliv_1">تدقيق أكثر من 25 نقطة جوهرية في الهيكل واللغة والتنسيق</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_1_deliv_2">تقييم نسبة توافق السيرة مع أنظمة ATS واقتراح تصحيحها</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_1_deliv_3">تحديد الكلمات المفتاحية لمسارك المستهدف (Medical Rep, Clinical, etc.)</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_1_deliv_4">تقرير توجيهي مخصص وملاحظات صوتية/مكتوبة قابلة للتطبيق الفوري</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_1_deliv_5">مدة التسليم: 48 ساعة فقط</span>
+              </li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price-block">
+                <span class="service-price-label" data-i18n="price_label">تكلفة الخدمة</span>
+                <div>
+                  <span class="service-price-value">50</span>
+                  <span class="service-price-currency" data-i18n="currency_egp">جنيه مصري</span>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-outline-primary open-order-modal" data-service-id="cv-review" data-service-name="CV Review" data-price="50 EGP" data-i18n="service_1_cta">
+                طلب مراجعة السيرة
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 2: Full CV Writing -->
+          <article class="service-card featured">
+            <div class="service-card-top">
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+              </div>
+              <span class="service-pill-tag" data-i18n="service_2_tag">الخيار الأكثر طلباً ⭐</span>
+            </div>
+
+            <h3 class="service-title" data-i18n="service_2_title">كتابة السيرة الذاتية الاحترافية (CV Writing)</h3>
+            <p class="service-desc" data-i18n="service_2_desc">
+              بناء وصياغة سيرة ذاتية متكاملة من الصفر تعكس قيمتك الأكاديمية والميدانية، بصياغة إنجازية احترافية تجذب مدراء التوظيف وتضمن أعلى درجات التوافق مع ATS.
+            </p>
+
+            <div class="service-deliverables-title" data-i18n="deliverables_title">ما ستحصل عليه في الكتابة الكاملة:</div>
+            <ul class="service-deliverables-list">
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_2_deliv_1">جلسة استبيان دقيقة لاستخراج نقاط قوتك وإنجازاتك غير المكتوبة</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_2_deliv_2">صياغة لغوية إنجليزية احترافية بأفعال قوية تناسب شركات الأدوية</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_2_deliv_3">تخصيص كامل للمسار المستهدف (Medical Rep, Hospital, QA/QC, Regulatory)</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_2_deliv_4">تسليم نسختين: ملف Word قابل للتعديل + ملف PDF جاهز للتقديم</span>
+              </li>
+              <li class="deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="service_2_deliv_5">هدية مجانية: نموذج خطاب تقديم (Cover Letter) مخصص + جولة تعديلات</span>
+              </li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price-block">
+                <span class="service-price-label" data-i18n="price_label">تكلفة الخدمة</span>
+                <div>
+                  <span class="service-price-value">200</span>
+                  <span class="service-price-currency" data-i18n="currency_egp">جنيه مصري</span>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-primary open-order-modal" data-service-id="cv-writing" data-service-name="Professional CV Writing" data-price="200 EGP" data-i18n="service_2_cta">
+                طلب كتابة سيرة كاملة
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION D: TRUST AND CREDIBILITY (VERIFIED METRICS & 4 PILLARS)
+         ======================================================================= -->
+    <section class="section" id="credibility">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge section-badge-gold" data-i18n="trust_badge">المصداقية والأثر</span>
+          <h2 class="section-title" data-i18n="trust_title">خبرة موثوقة بالأرقام والنتائج الحقيقية</h2>
+          <p class="section-subtitle" data-i18n="trust_subtitle">
+            لا نعتمد على الوعود الزائفة أو الأرقام المفبركة؛ بل نبني عملنا على معايير التوظيف الحقيقية في سوق الدواء المصري والعربي.
+          </p>
+        </div>
+
+        <!-- 4 Verified Key Metrics -->
+        <div class="stats-strip">
+          <div class="stat-card">
+            <div class="stat-big-number">+500</div>
+            <div class="stat-label" data-i18n="stat_1_label">سيرة ذاتية تم فحصها وتطويرها للصيادلة</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-big-number">+150</div>
+            <div class="stat-label" data-i18n="stat_2_label">طالب وخريج تلقوا توجيهاً مهنياً مخصصاً</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-big-number">4</div>
+            <div class="stat-label" data-i18n="stat_3_label">مسارات صيدلانية متخصصة ندعمها</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-big-number">98%</div>
+            <div class="stat-label" data-i18n="stat_4_label">نسبة رضا وتقييمات إيجابية موثقة</div>
+          </div>
+        </div>
+
+        <!-- 4 Core Pillars of Work (Khaled ElAhmad inspired) -->
+        <div class="pillars-grid">
+          
+          <div class="pillar-card">
+            <span class="pillar-number">01</span>
+            <h3 class="pillar-title" data-i18n="pillar_1_title">التخصص الدوائي الحقيقي</h3>
+            <p class="pillar-desc" data-i18n="pillar_1_desc">
+              لا نكتب قوالب عامة؛ بل نفهم الفارق الجوهري بين متطلبات الـ Medical Rep ومتطلبات صيدلي المستشفيات أو أخصائي الشؤون التنظيمية.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-number">02</span>
+            <h3 class="pillar-title" data-i18n="pillar_2_title">التوافق الصارم مع ATS</h3>
+            <p class="pillar-desc" data-i18n="pillar_2_desc">
+              نضمن أن سيرتك تخلو من الجداول والأشكال التي تُعطل خوارزميات الفرز، مع تضمين الكلمات المفتاحية التي يبحث عنها مسؤولو الـ HR.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-number">03</span>
+            <h3 class="pillar-title" data-i18n="pillar_3_title">الواقعية والصدق المهني</h3>
+            <p class="pillar-desc" data-i18n="pillar_3_desc">
+              نساعدك على إبراز خبراتك وأنشطتك الحقيقية بأقوى صيغة ممكنة دون ادعاء أو تضخيم غير صادق يضر بفرصتك في المقابلة.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-number">04</span>
+            <h3 class="pillar-title" data-i18n="pillar_4_title">الدعم والمتابعة المباشرة</h3>
+            <p class="pillar-desc" data-i18n="pillar_4_desc">
+              لست مجرد رقم أو ملف يتم تسليمه؛ بل نقدم توجيهات عملية وشرحاً تفصيلياً لكيفية تقديم نفسك بثقة في المقابلات القادمة.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION E: FEATURED COURSES & WORKSHOPS
+         ======================================================================= -->
+    <section class="section section-alt" id="courses">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge" data-i18n="courses_badge">البرامج التدريبية</span>
+          <h2 class="section-title" data-i18n="courses_title">ورش تدريبية وبرامج عملية لتسريع مسارك</h2>
+          <p class="section-subtitle" data-i18n="courses_subtitle">
+            برامج مكثفة وتطبيقية مصممة لنقل طلاب وخريجي الصيدلة من مرحلة الحيرة الأكاديمية إلى الجاهزية التامة للمنافسة في سوق العمل.
+          </p>
+        </div>
+
+        <div class="courses-grid">
+          
+          <!-- Course Card 1 -->
+          <article class="course-card">
+            <div class="course-card-header">
+              <div class="course-meta-tags">
+                <span class="course-tag tag-pharma" data-i18n="course_1_tag_1">برنامج 4 أسابيع</span>
+                <span class="course-tag" data-i18n="course_1_tag_2">للطلاب والخريجين الجدد</span>
+              </div>
+              <h3 class="course-title" data-i18n="course_1_title">Pharma Career Launchpad: خارطة الطريق لسوق الدواء</h3>
+              <p class="course-summary" data-i18n="course_1_summary">
+                برنامج متكامل يعلمك كيفية اكتشاف المسار الوظيفي الأنسب لك، وفهم خريطة شركات الأدوية والمستشفيات، وبناء شبكة علاقات مهنية على لينكدإن تجلب الفرص.
+              </p>
+            </div>
+
+            <div class="course-card-body">
+              <div class="course-modules-title" data-i18n="course_modules_title">أبرز محاور البرنامج:</div>
+              <ul class="course-modules-list">
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_1_mod_1">تحليل وفهم كافة مسارات الصيدلة (Sales, Clinical, Regulatory, Quality)</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_1_mod_2">استراتيجيات التواصل الذكي والوصول لمدراء التوظيف والـ District Managers</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_1_mod_3">بناء حضور احترافي على لينكدإن وتحويل الحساب إلى مغناطيس فرص</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_1_mod_4">أوراق عمل أسبوعية ومتابعة فردية للتقدم</span>
+                </li>
+              </ul>
+
+              <div class="course-card-footer">
+                <div class="service-price-block">
+                  <span class="service-price-label" data-i18n="investment_label">قيمة الاستثمار</span>
+                  <div>
+                    <span class="service-price-value">650</span>
+                    <span class="service-price-currency" data-i18n="currency_egp">جنيه مصري</span>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-primary open-order-modal" data-service-id="course-launchpad" data-service-name="Pharma Career Launchpad" data-price="650 EGP" data-i18n="course_register_cta">
+                  طلب التسجيل في البرنامج
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 2 -->
+          <article class="course-card">
+            <div class="course-card-header">
+              <div class="course-meta-tags">
+                <span class="course-tag tag-pharma" data-i18n="course_2_tag_1">ورشة عمل مكثفة (يومان)</span>
+                <span class="course-tag" data-i18n="course_2_tag_2">تأهيل Medical Rep</span>
+              </div>
+              <h3 class="course-title" data-i18n="course_2_title">Medical Rep Interview Mastery: أسرار اجتياز مقابلات شركات الأدوية</h3>
+              <p class="course-summary" data-i18n="course_2_summary">
+                تدريب تطبيقي مكثف يركز على الأسئلة السلوكية الشائعة في مقابلات الـ Multinationals، ومحاكاة الـ Role Play وتقنيات الإقناع العلمي والبيعي.
+              </p>
+            </div>
+
+            <div class="course-card-body">
+              <div class="course-modules-title" data-i18n="course_modules_title">أبرز محاور البرنامج:</div>
+              <ul class="course-modules-list">
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_2_mod_1">تفكيك أسئلة الكفاءات والسلوك بطريقة STAR المعتمدة عالمياً</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_2_mod_2">محاكاة عملية لمقابلة الـ District Manager والتعامل مع ضغط المقابلة</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_2_mod_3">إتقان سيناريو الـ Detailing والرد على اعتراضات الأطباء الافتراضية</span>
+                </li>
+                <li class="module-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span data-i18n="course_2_mod_4">أهم الأخطاء القاتلة التي تستبعد الخريجين الجدد في اللحظة الأخيرة</span>
+                </li>
+              </ul>
+
+              <div class="course-card-footer">
+                <div class="service-price-block">
+                  <span class="service-price-label" data-i18n="investment_label">قيمة الاستثمار</span>
+                  <div>
+                    <span class="service-price-value">450</span>
+                    <span class="service-price-currency" data-i18n="currency_egp">جنيه مصري</span>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-primary open-order-modal" data-service-id="course-interview" data-service-name="Medical Rep Interview Mastery" data-price="450 EGP" data-i18n="course_register_cta">
+                  حجز مقعد في الورشة
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION F: FREE RESOURCES (DOWNLOADABLE ATS GUIDES & CHECKLISTS)
+         ======================================================================= -->
+    <section class="section" id="resources">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge section-badge-gold" data-i18n="resources_badge">مواد ومصادر مجانية</span>
+          <h2 class="section-title" data-i18n="resources_title">أدوات عملية مجانية لتطوير ملفك المهني فوراً</h2>
+          <p class="section-subtitle" data-i18n="resources_subtitle">
+            أدلة وقوائم تدقيق ونماذج جاهزة قمنا بإعدادها لمساعدتك في اتخاذ أولى خطواتك الصحيحة، متاحة للتحميل المباشر.
+          </p>
+        </div>
+
+        <div class="resources-grid">
+          
+          <!-- Resource 1: Available -->
+          <article class="resource-card">
+            <span class="resource-status-badge status-available" data-i18n="status_available">متاح للتحميل المجاني</span>
+            <div class="resource-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <h3 class="resource-title" data-i18n="resource_1_title">دليل السيرة الذاتية لطلاب وخريجي الصيدلة (ATS Guide)</h3>
+            <p class="resource-desc" data-i18n="resource_1_desc">
+              دليل عملي يشرح معايير نظام ATS، الهيكل السليم للسيرة، وأهم الكلمات المفتاحية لمسارات الدواء والمستشفيات.
+            </p>
+            <a href="assets/downloads/Pharma-ATS-CV-Guide-Hussein-Abdelrazek.txt" download class="btn btn-outline-primary btn-sm resource-btn" data-i18n="download_now_btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 15px; height: 15px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              تحميل الدليل (TXT)
+            </a>
+          </article>
+
+          <!-- Resource 2: Available -->
+          <article class="resource-card">
+            <span class="resource-status-badge status-available" data-i18n="status_available">متاح للتحميل المجاني</span>
+            <div class="resource-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 11 12 14 22 4"></polyline>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              </svg>
+            </div>
+            <h3 class="resource-title" data-i18n="resource_2_title">قائمة التدقيق لمقابلات Medical Rep (Checklist)</h3>
+            <p class="resource-desc" data-i18n="resource_2_desc">
+              قائمة فحص شاملة للمعلومات العلمية والأسئلة السلوكية وسيناريو الـ Detailing قبل التوجه لمقابلة شركة الأدوية.
+            </p>
+            <a href="assets/downloads/Medical-Rep-Interview-Checklist-Hussein-Abdelrazek.txt" download class="btn btn-outline-primary btn-sm resource-btn" data-i18n="download_now_btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 15px; height: 15px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              تحميل القائمة (TXT)
+            </a>
+          </article>
+
+          <!-- Resource 3: Planned / Coming Soon -->
+          <article class="resource-card">
+            <span class="resource-status-badge status-planned" data-i18n="status_planned">قريباً في التحديث القادم</span>
+            <div class="resource-icon-circle" style="background-color: var(--color-slate-100); color: var(--text-muted);">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/>
+              </svg>
+            </div>
+            <h3 class="resource-title" data-i18n="resource_3_title">دليل تحسين حساب لينكدإن للصيادلة</h3>
+            <p class="resource-desc" data-i18n="resource_3_desc">
+              كتيّب تطبيقي لكتابة الـ Headline والـ About Section واستراتيجيات بناء شبكة علاقات مع مدراء الـ Pharma.
+            </p>
+            <button type="button" class="btn btn-secondary btn-sm resource-btn" disabled style="opacity: 0.6; cursor: not-allowed;" data-i18n="coming_soon_btn">
+              قيد الإعداد
+            </button>
+          </article>
+
+          <!-- Resource 4: Planned / Coming Soon -->
+          <article class="resource-card">
+            <span class="resource-status-badge status-planned" data-i18n="status_planned">قريباً في التحديث القادم</span>
+            <div class="resource-icon-circle" style="background-color: var(--color-slate-100); color: var(--text-muted);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <h3 class="resource-title" data-i18n="resource_4_title">قاموس مصطلحات ومفاهيم شركات الأدوية</h3>
+            <p class="resource-desc" data-i18n="resource_4_desc">
+              أكثر من 80 مصطلحاً شائعاً (KOLs, Detailing, Territory, EDA, CTD, GCP) لا غنى عنها لأي مرشح في المقابلات.
+            </p>
+            <button type="button" class="btn btn-secondary btn-sm resource-btn" disabled style="opacity: 0.6; cursor: not-allowed;" data-i18n="coming_soon_btn">
+              قيد الإعداد
+            </button>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION G: CLIENT TESTIMONIALS (PRIVACY-PROTECTED AUTHENTIC FEEDBACK)
+         ======================================================================= -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge" data-i18n="testimonials_badge">تجارب وقصص نجاح</span>
+          <h2 class="section-title" data-i18n="testimonials_title">ما يقوله زملاؤنا بعد مراجعة وتطوير سيرهم الذاتية</h2>
+          <p class="section-subtitle" data-i18n="testimonials_subtitle">
+            آراء حقيقية من صيادلة وحديثي تخرج وثقوا بخدماتنا واستطاعوا لفت انتباه كبرى شركات الأدوية والمستشفيات (مع الحفاظ على سرية البيانات الشخصية).
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="testimonial-track-badge" data-i18n="track_medical_rep">Medical Rep | Multinational</span>
+            </div>
+
+            <p class="testimonial-quote" data-i18n="testimonial_1_quote">
+              "كنت أقدم على شركات مالتي ناشيونال منذ 4 أشهر بدون أي رد. بعد ما د. حسين أعاد صياغة سيرتي وركّز على أنشطتي الطلابية بأسلوب ATS، تلقيت مكالمة لمقابلة Assessment Center في شركة سويسرية بعد 3 أيام فقط! فارق الصياغة خيالي."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar">د. أ</div>
+              <div class="author-info">
+                <span class="author-name" data-i18n="author_1_name">د. أحمد ع.</span>
+                <span class="author-role" data-i18n="author_1_role">صيدلي - خريج 2025 | تم التعيين بشركة مالتي ناشيونال</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="testimonial-track-badge" data-i18n="track_hospital">Hospital & Clinical Pharmacy</span>
+            </div>
+
+            <p class="testimonial-quote" data-i18n="testimonial_2_quote">
+              "خدمة مراجعة السيرة الذاتية مع د. حسين كانت من أفضل الاستثمارات التي قمت بها. التقرير الصوتي المرفق وضّح لي بالضبط لماذا كان يتم استبعاد ملفي في مستشفيات الأورام الكبرى. السيرة أصبحت واضحة، مهنية ومحددة الأهداف."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar">د. ن</div>
+              <div class="author-info">
+                <span class="author-name" data-i18n="author_2_name">د. نورهان م.</span>
+                <span class="author-role" data-i18n="author_2_role">صيدلانية إكلينيكية | مستشفى أورام كبرى</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="testimonial-track-badge" data-i18n="track_consultation">1-on-1 Consultation</span>
+            </div>
+
+            <p class="testimonial-quote" data-i18n="testimonial_3_quote">
+              "جلسة الاستشارة الفردية لـ 45 دقيقة وفرت عليّ شهوراً من التخبط. فصّلنا السيرة الذاتية سطراً بسطر وحضرنا أسئلة الإنترفيو الواقعية. شكراً جزيلاً يا دكتور على سعة صدرك وأسلوبك العملي جداً."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar">د. م</div>
+              <div class="author-info">
+                <span class="author-name" data-i18n="author_3_name">د. محمود س.</span>
+                <span class="author-role" data-i18n="author_3_role">طالب صيدلة - السنة النهائية | جامعة القاهرة</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION H: ABOUT HUSSEIN (PERSONAL BRAND STORY & MISSION)
+         ======================================================================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        
+        <!-- Image Card -->
+        <div class="about-image-card">
+          <img src="assets/images/hussein-consulting.jpg" alt="Hussein Abdelrazek Career Consulting" loading="lazy">
+          <div class="about-floating-card">
+            <span style="font-weight: 700; color: var(--primary); font-size: 0.875rem;" data-i18n="about_float_badge">رسالتي المهنية</span>
+            <p style="font-size: 0.8125rem; color: var(--text-body); margin: 0.35rem 0 0 0;" data-i18n="about_float_text">
+              "سوق الدواء لا يبحث فقط عن الأكثر علماً، بل عن الأقدر على ترجمة كفاءته في حضور مهني واضح ومقنع."
+            </p>
+          </div>
+        </div>
+
+        <!-- About Text Content -->
+        <div class="about-content">
+          <span class="section-badge" data-i18n="about_badge">عن المستشار</span>
+          <h2 class="about-headline" data-i18n="about_title">أنا حسين عبد الرازق، وهنا لأساعدك على سد الفجوة بين دراستك وسوق العمل</h2>
+          
+          <p class="about-text" data-i18n="about_para_1">
+            كصيدلي خاض تجارب سوق العمل واحتك بمتطلبات التوظيف المعقدة في شركات الأدوية والمستشفيات، رأيت مئات الزملاء والطلاب المتميزين أكاديمياً يُستبعدون من أول مرحلة للتوظيف لمجرد أن سيرهم الذاتية لا تعكس قيمتهم الحقيقية.
+          </p>
+
+          <p class="about-text" data-i18n="about_para_2">
+            الدراسة الصيدلانية تستمر 5 سنوات من الجهد العلمي الشاق، لكن نادراً ما يتعلم الطالب كيف يكتب سيرة ذاتية تفهمها برمجيات الـ ATS، أو كيف يصيغ أنشطته وتدريباته بلغة تفهمها إدارات الموارد البشرية ومدراء المبيعات.
+          </p>
+
+          <p class="about-text" data-i18n="about_para_3">
+            هدفي هو أن أقدم لكل طالب وخريج صيدلة الأدوات العملية والتوجيه المباشر ليقدم نفسه بأعلى درجات الاحترافية والثقة، ويقتنص الفرصة التي يستحقها دون تضييع شهور في محاولات عشوائية.
+          </p>
+
+          <div class="about-values-list">
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="about_val_1">خلفية صيدلانية متخصصة</span>
+            </div>
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="about_val_2">خبرة بمتطلبات شركات الـ Multinationals</span>
+            </div>
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="about_val_3">معايير فنية دقيقة لأنظمة ATS</span>
+            </div>
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="about_val_4">إرشاد مباشر وتواصل إنساني صادق</span>
+            </div>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-primary open-booking-modal" data-i18n="about_cta">
+              احجز جلستك الإرشادية معي
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION I: ONE-ON-ONE CONSULTATIONS
+         ======================================================================= -->
+    <section class="section section-alt" id="consultations">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge section-badge-gold" data-i18n="consult_badge">جلسات توجيه فردية</span>
+          <h2 class="section-title" data-i18n="consult_title">استشارة مهنية فردية 1-on-1 لتحديد مسارك</h2>
+          <p class="section-subtitle" data-i18n="consult_subtitle">
+            جلسة تفاعلية مباشرة عبر Google Meet لمناقشة كافة تساؤلاتك المهنية، تدقيق سيرتك الذاتية، ومحاكاة مقابلتك القادمة.
+          </p>
+        </div>
+
+        <div class="consultation-box">
+          
+          <div class="consultation-left">
+            <h3 data-i18n="consult_box_title">ماذا يحدث خلال جلسة الـ 45–60 دقيقة؟</h3>
+            <p data-i18n="consult_box_desc">
+              جلسة خاصة ومكثفة تركز على وضعك الحالي وتطلعاتك الشخصية، تخرج منها برؤية وخطة واضحة قابلة للتطبيق الفوري.
+            </p>
+
+            <ul class="consultation-agenda-list">
+              <li class="agenda-item">
+                <div class="agenda-bullet">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <strong data-i18n="agenda_1_title">فحص مباشر لسيرتك الذاتية:</strong>
+                  <span data-i18n="agenda_1_desc">نراجع سيرتك سطراً بسطر على الشاشة، ونحدد نقاط القوة ونصلح كل نقطة ضعف قد تستبعدك.</span>
+                </div>
+              </li>
+              <li class="agenda-item">
+                <div class="agenda-bullet">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <strong data-i18n="agenda_2_title">مواءمة وتحديد المسار الدوائي:</strong>
+                  <span data-i18n="agenda_2_desc">نناقش شخصيتك ومهاراتك لنحدد هل يناسبك مجال الـ Medical Rep أم الصيدلة الإكلينيكية أم الشؤون التنظيمية.</span>
+                </div>
+              </li>
+              <li class="agenda-item">
+                <div class="agenda-bullet">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <strong data-i18n="agenda_3_title">محاكاة لأسئلة المقابلات:</strong>
+                  <span data-i18n="agenda_3_desc">تدريب واقعي على أصعب الأسئلة السلوكية وأسئلة الضغط وكيف تجيب عليها بثقة وهدوء.</span>
+                </div>
+              </li>
+              <li class="agenda-item">
+                <div class="agenda-bullet">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <strong data-i18n="agenda_4_title">خطة عمل شهرية مخصصة:</strong>
+                  <span data-i18n="agenda_4_desc">خطوات عملية محددة بالتواريخ لما يجب عليك تنفيذه في الأيام الثلاثين القادمة.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="consultation-card-pricing">
+            <div class="consultation-duration-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span data-i18n="consult_duration">مدة الجلسة: 45–60 دقيقة أونلاين</span>
+            </div>
+
+            <div class="consultation-price-num">350</div>
+            <div class="consultation-price-currency" data-i18n="currency_egp">جنيه مصري (أو $20 للمقيمين خارج مصر)</div>
+
+            <div class="payment-notice-box">
+              <strong data-i18n="instapay_notice_title">الدفع وتأكيد الحجز:</strong>
+              <div style="margin-top: 0.25rem;" data-i18n="instapay_notice_desc">
+                يتم الدفع مسبقاً عبر خدمة <strong>InstaPay</strong> وإرسال إيصال التحويل عبر واتساب لتأكيد موعد الجلسة في الأجندة يدوياً.
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg open-booking-modal" data-i18n="consult_book_btn">
+              احجز موعد الاستشارة الآن
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION J: FINAL CLOSING CTA BANNER
+         ======================================================================= -->
+    <section class="closing-cta-section">
+      <div class="container closing-cta-content">
+        <h2 class="closing-title" data-i18n="closing_title">مستقبلك المهني في قطاع الدواء يبدأ اليوم</h2>
+        <p class="closing-desc" data-i18n="closing_desc">
+          لا تدع سيرتك الذاتية الحالية تضيع عليك فرصاً كان يمكن أن تغير مسارك المهني بالكامل. ابدأ الآن واجعل ملفك يتحدث عن كفاءتك الحقيقية.
+        </p>
+        
+        <div class="closing-buttons">
+          <button type="button" class="btn btn-whatsapp btn-lg open-order-modal" data-service-id="cv-writing" data-service-name="Professional CV Writing" data-price="200 EGP" data-i18n="closing_btn_cv">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.16 7.42C8.98 7.42 8.79 7.43 8.62 7.72C8.44 8.01 7.93 8.49 7.93 9.47C7.93 10.45 8.65 11.39 8.75 11.53C8.86 11.66 10.15 13.65 12.13 14.5C12.6 14.7 12.96 14.82 13.25 14.91C13.72 15.06 14.15 15.04 14.49 14.99C14.87 14.93 15.65 14.51 15.82 14.04C15.98 13.57 15.98 13.16 15.93 13.08C15.88 13 15.75 12.94 15.56 12.85C15.37 12.75 14.45 12.3 14.28 12.24C14.11 12.18 13.98 12.15 13.86 12.33C13.74 12.52 13.38 12.94 13.28 13.06C13.17 13.18 13.07 13.2 12.88 13.1C12.7 13.01 12.1 12.81 11.39 12.18C10.84 11.69 10.47 11.08 10.36 10.9C10.26 10.71 10.35 10.61 10.44 10.51C10.53 10.43 10.63 10.3 10.73 10.18C10.83 10.07 10.86 9.98 10.92 9.86C10.98 9.74 10.95 9.63 10.9 9.53C10.86 9.44 10.48 8.52 10.33 8.14C10.17 7.77 10.02 7.82 9.9 7.82L9.54 7.81C9.41 7.81 9.24 7.83 9.16 7.42Z"/></svg>
+            اطلب كتابة السيرة عبر واتساب
+          </button>
+          
+          <button type="button" class="btn btn-secondary btn-lg open-booking-modal" data-i18n="closing_btn_consult">
+            احجز جلسة استشارية فردية
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       SITE FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      
+      <!-- Brand & Bio Column -->
+      <div class="footer-col-brand">
+        <span class="brand-name">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          <span data-i18n="brand_name">حسين عبد الرازق</span>
+        </span>
+        <div class="brand-tag" data-i18n="brand_tag">مستشار مهني للصيادلة</div>
+        <p class="footer-brand-bio" data-i18n="footer_bio">
+          منصة واستشارات شخصية متخصصة في مساعدة طلاب وخريجي كليات الصيدلة على صياغة سير ذاتية احترافية مطابقة لأنظمة ATS، وبناء حضور مهني قوي في شركات الأدوية والمستشفيات.
+        </p>
+
+        <div class="social-icons-row">
+          <a href="https://wa.me/201012345678" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.16 7.42C8.98 7.42 8.79 7.43 8.62 7.72C8.44 8.01 7.93 8.49 7.93 9.47C7.93 10.45 8.65 11.39 8.75 11.53C8.86 11.66 10.15 13.65 12.13 14.5C12.6 14.7 12.96 14.82 13.25 14.91C13.72 15.06 14.15 15.04 14.49 14.99C14.87 14.93 15.65 14.51 15.82 14.04C15.98 13.57 15.98 13.16 15.93 13.08C15.88 13 15.75 12.94 15.56 12.85C15.37 12.75 14.45 12.3 14.28 12.24C14.11 12.18 13.98 12.15 13.86 12.33C13.74 12.52 13.38 12.94 13.28 13.06C13.17 13.18 13.07 13.2 12.88 13.1C12.7 13.01 12.1 12.81 11.39 12.18C10.84 11.69 10.47 11.08 10.36 10.9C10.26 10.71 10.35 10.61 10.44 10.51C10.53 10.43 10.63 10.3 10.73 10.18C10.83 10.07 10.86 9.98 10.92 9.86C10.98 9.74 10.95 9.63 10.9 9.53C10.86 9.44 10.48 8.52 10.33 8.14C10.17 7.77 10.02 7.82 9.9 7.82L9.54 7.81C9.41 7.81 9.24 7.83 9.16 7.42Z"/></svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg>
+          </a>
+          <a href="mailto:contact@husseinabdelrazek.com" class="social-icon-btn" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div>
+        <h4 class="footer-col-title" data-i18n="footer_links_title">روابط سريعة</h4>
+        <ul class="footer-links-list">
+          <li><a href="#services" class="footer-link" data-i18n="nav_services">الخدمات</a></li>
+          <li><a href="#courses" class="footer-link" data-i18n="nav_courses">البرامج التدريبية</a></li>
+          <li><a href="#resources" class="footer-link" data-i18n="nav_resources">المواد المجانية</a></li>
+          <li><a href="#testimonials" class="footer-link" data-i18n="nav_testimonials">آراء العملاء</a></li>
+          <li><a href="#consultations" class="footer-link" data-i18n="nav_consultations">حجز الاستشارات</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Tracks & Guidance -->
+      <div>
+        <h4 class="footer-col-title" data-i18n="footer_tracks_title">المسارات المدعومة</h4>
+        <ul class="footer-links-list">
+          <li><span class="footer-link" data-i18n="track_rep">الدعاية الطبية (Medical Rep)</span></li>
+          <li><span class="footer-link" data-i18n="track_hosp">صيدلة المستشفيات والإكلينيكية</span></li>
+          <li><span class="footer-link" data-i18n="track_reg">الشؤون التنظيمية واليقظة الدوائية</span></li>
+          <li><span class="footer-link" data-i18n="track_comm">صيدليات المجتمع والسلاسل</span></li>
+          <li><span class="footer-link" data-i18n="track_qa">توكيد ومراقبة الجودة (QA/QC)</span></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact & Verification -->
+      <div>
+        <h4 class="footer-col-title" data-i18n="footer_contact_title">التواصل والمساعدة</h4>
+        <ul class="footer-links-list">
+          <li><a href="https://wa.me/201012345678" target="_blank" rel="noopener noreferrer" class="footer-link">واتساب: 01012345678 (20+)</a></li>
+          <li><span class="footer-link">InstaPay: husseinabdelrazek@instapay</span></li>
+          <li><span class="footer-link">الموقع: القاهرة، مصر (خدمات أونلاين لكافة المحافظات والوطن العربي)</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar & Disclaimers -->
+    <div class="container footer-bottom-bar">
+      <div>
+        © <span id="currentYear">2026</span> <span data-i18n="footer_copyright">د. حسين عبد الرازق. جميع الحقوق محفوظة.</span>
+      </div>
+      <div class="footer-disclaimer-note" data-i18n="footer_disclaimer">
+        * تنويه: جميع عمليات الدفع عبر InstaPay تخضع للمراجعة والتحقق اليدوي عبر إيصال الواتساب قبل بدء تنفيذ الخدمة أو تأكيد موعد الاستشارة.
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL 1: SERVICE ORDER (CV REVIEW & CV WRITING)
+       ========================================================================= -->
+  <div class="modal-overlay" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-header-title" id="orderModalTitle" data-i18n="order_modal_title">طلب خدمة تطوير السيرة الذاتية</h3>
+        <button class="modal-close-btn close-modal-btn" type="button" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="orderForm">
+          
+          <!-- Selected Service Details -->
+          <div class="form-group">
+            <label class="form-label" data-i18n="form_service_label">الخدمة المختارة</label>
+            <select class="form-select" id="orderServiceSelect" required>
+              <option value="CV Writing" data-price="200 EGP">كتابة السيرة الذاتية الاحترافية (200 جنيه مصري)</option>
+              <option value="CV Review" data-price="50 EGP">مراجعة وتدقيق السيرة الذاتية (50 جنيه مصري)</option>
+              <option value="Pharma Career Launchpad" data-price="650 EGP">برنامج Pharma Career Launchpad (650 جنيه)</option>
+              <option value="Medical Rep Interview Mastery" data-price="450 EGP">ورشة Medical Rep Interview Mastery (450 جنيه)</option>
+            </select>
+          </div>
+
+          <!-- Target Pharma Track -->
+          <div class="form-group">
+            <label class="form-label" data-i18n="form_track_label">المسار الصيدلاني المستهدف <span class="required-star">*</span></label>
+            <select class="form-select" id="orderTrackSelect" required>
+              <option value="Medical Representative (Multinationals)">دعاية طبية بشركات مالتي ناشيونال (Medical Rep)</option>
+              <option value="Medical Representative (Local/Regional)">دعاية طبية بشركات محلية وإقليمية</option>
+              <option value="Hospital & Clinical Pharmacy">صيدلة المستشفيات والإكلينيكية</option>
+              <option value="Regulatory Affairs & PV">الشؤون التنظيمية واليقظة الدوائية</option>
+              <option value="Quality Assurance / QC">توكيد ومراقبة الجودة بمصانع الأدوية</option>
+              <option value="Community Pharmacy Chains">سلاسل الصيدليات الكبرى</option>
+              <option value="Not Sure / Career Guidance Needed">غير متأكد / أحتاج لتحديد المسار</option>
+            </select>
+          </div>
+
+          <!-- Client Info -->
+          <div class="form-group">
+            <label class="form-label" for="clientName" data-i18n="form_name_label">الاسم الكامل <span class="required-star">*</span></label>
+            <input type="text" class="form-input" id="clientName" placeholder="د. أحمد محمد" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="clientPhone" data-i18n="form_phone_label">رقم الواتساب للتواصل <span class="required-star">*</span></label>
+            <input type="tel" class="form-input" id="clientPhone" placeholder="01012345678" required>
+            <div class="form-help" data-i18n="form_phone_help">سيتم إرسال مسودة السيرة والملاحظات ومتابعة الطلب عبر هذا الرقم.</div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="clientGradYear" data-i18n="form_grad_label">الفرقة الدراسية أو سنة التخرج</label>
+            <input type="text" class="form-input" id="clientGradYear" placeholder="مثال: خريج 2025 - كلية الصيدلة جامعة عين شمس">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="clientNotes" data-i18n="form_notes_label">ملاحظات إضافية أو روابط (اختياري)</label>
+            <textarea class="form-textarea" id="clientNotes" placeholder="أي تفاصيل ترغب في مشاركتها حول أهدافك أو الشركات التي تستهدفها"></textarea>
+          </div>
+
+          <!-- Payment Method Choice -->
+          <div class="form-group">
+            <label class="form-label" data-i18n="form_payment_method_label">طريقة الدفع وإتمام الطلب</label>
+            
+            <div class="payment-selector-tabs">
+              <button type="button" class="payment-tab-btn active" id="tabInstaPay" data-method="instapay">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+                <span>InstaPay (إنستاباي)</span>
+              </button>
+              <button type="button" class="payment-tab-btn" id="tabWhatsApp" data-method="whatsapp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.16 7.42C8.98 7.42 8.79 7.43 8.62 7.72C8.44 8.01 7.93 8.49 7.93 9.47C7.93 10.45 8.65 11.39 8.75 11.53C8.86 11.66 10.15 13.65 12.13 14.5C12.6 14.7 12.96 14.82 13.25 14.91C13.72 15.06 14.15 15.04 14.49 14.99C14.87 14.93 15.65 14.51 15.82 14.04C15.98 13.57 15.98 13.16 15.93 13.08C15.88 13 15.75 12.94 15.56 12.85C15.37 12.75 14.45 12.3 14.28 12.24C14.11 12.18 13.98 12.15 13.86 12.33C13.74 12.52 13.38 12.94 13.28 13.06C13.17 13.18 13.07 13.2 12.88 13.1C12.7 13.01 12.1 12.81 11.39 12.18C10.84 11.69 10.47 11.08 10.36 10.9C10.26 10.71 10.35 10.61 10.44 10.51C10.53 10.43 10.63 10.3 10.73 10.18C10.83 10.07 10.86 9.98 10.92 9.86C10.98 9.74 10.95 9.63 10.9 9.53C10.86 9.44 10.48 8.52 10.33 8.14C10.17 7.77 10.02 7.82 9.9 7.82L9.54 7.81C9.41 7.81 9.24 7.83 9.16 7.42Z"/></svg>
+                <span>طلب مباشر واتساب</span>
+              </button>
+            </div>
+
+            <!-- InstaPay Instruction Panel -->
+            <div class="instapay-instruction-panel" id="instapayPanel">
+              <div class="instapay-header-row">
+                <strong style="color: var(--text-main); font-size: 0.875rem;" data-i18n="instapay_panel_title">بيانات التحويل عبر InstaPay:</strong>
+                <span style="font-size: 0.75rem; color: var(--primary); font-weight: 700;" data-i18n="instapay_instant_badge">فوري وبدون رسوم</span>
+              </div>
+              
+              <div class="instapay-handle-box">
+                <span class="instapay-handle-text" id="instapayHandle">husseinabdelrazek@instapay</span>
+                <button type="button" class="copy-btn" id="copyInstapayBtn" data-i18n="copy_btn">نسخ الحساب</button>
+              </div>
+
+              <div class="instapay-alert-pill" data-i18n="instapay_warning_text">
+                ⚠️ <strong>تنبيه هام للتحقق اليدوي:</strong> تقديم هذا الطلب لا يسجل المعاملة كمدفوعة تلقائياً. بعد التحويل، سيتم توجيهك إلى واتساب لإرسال لقطة شاشة التحويل لتأكيد البدء الفوري في العمل.
+              </div>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp btn-lg" style="width: 100%;" id="submitOrderBtn" data-i18n="submit_order_whatsapp">
+            تأكيد الطلب والمتابعة عبر واتساب
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODAL 2: 1-ON-1 CONSULTATION BOOKING
+       ========================================================================= -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-header-title" id="bookingModalTitle" data-i18n="booking_modal_title">حجز استشارة مهنية فردية (1-on-1)</h3>
+        <button class="modal-close-btn close-modal-btn" type="button" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm">
+          
+          <div class="form-group">
+            <label class="form-label" for="bookingName" data-i18n="form_name_label">الاسم الكامل <span class="required-star">*</span></label>
+            <input type="text" class="form-input" id="bookingName" placeholder="د. أحمد محمد" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="bookingPhone" data-i18n="form_phone_label">رقم الواتساب للتواصل وتأكيد الموعد <span class="required-star">*</span></label>
+            <input type="tel" class="form-input" id="bookingPhone" placeholder="01012345678" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="booking_focus_label">المحور الأساسي للجلسة <span class="required-star">*</span></label>
+            <select class="form-select" id="bookingFocus" required>
+              <option value="CV Comprehensive Audit">مراجعة وتدقيق السيرة الذاتية سطراً بسطر</option>
+              <option value="Pharma Career Orientation">تحديد المسار الأنسب (دعاية طبية، مستشفيات، جودة، تسويق)</option>
+              <option value="Medical Rep Interview Preparation">التحضير لمقابلة عمل قادمة في شركة أدوية</option>
+              <option value="General Consultation">استشارة مهنية عامة وخطة عمل</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="bookingTimeSlot" data-i18n="booking_slot_label">الموعد والفترة المفضلة</label>
+            <select class="form-select" id="bookingTimeSlot" required>
+              <option value="Evening (6:00 PM - 8:00 PM)">فترة مسائية (6:00 مساءً - 8:00 مساءً بتوقيت القاهرة)</option>
+              <option value="Late Evening (8:00 PM - 10:00 PM)">فترة ليلية (8:00 مساءً - 10:00 مساءً بتوقيت القاهرة)</option>
+              <option value="Afternoon (2:00 PM - 5:00 PM)">فترة بعد الظهر (2:00 ظهراً - 5:00 مساءً)</option>
+              <option value="Weekend (Friday/Saturday)">نهاية الأسبوع (الجمعة / السبت)</option>
+            </select>
+          </div>
+
+          <!-- InstaPay Payment Instructions -->
+          <div class="instapay-instruction-panel">
+            <div class="instapay-header-row">
+              <strong style="color: var(--text-main); font-size: 0.875rem;" data-i18n="consult_fee_header">رسوم الجلسة: 350 جنيه مصري (45-60 دقيقة)</strong>
+            </div>
+            
+            <div class="instapay-handle-box">
+              <span class="instapay-handle-text">husseinabdelrazek@instapay</span>
+              <button type="button" class="copy-btn copy-handle-generic" data-i18n="copy_btn">نسخ الحساب</button>
+            </div>
+
+            <div class="instapay-alert-pill" data-i18n="booking_confirm_notice">
+              ℹ️ لمنع التعارض في المواعيد، يتم تأكيد حجز الموعد نهائياً في الأجندة بعد إرسال رسالة الواتساب المرفقة بإيصال التحويل اليدوي.
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp btn-lg" style="width: 100%;" id="submitBookingBtn" data-i18n="submit_booking_whatsapp">
+            إرسال طلب الحجز عبر واتساب
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
